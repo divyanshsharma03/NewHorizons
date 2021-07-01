@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    color: #8f8f8f;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Montserrat', sans-serif !important;
+}
+/* Nav */
+#home .container-fluid {
+    padding: 0;
+    margin: 0;
+    background-color: #c3bef0;
+    margin: 1.5% 0%;
+}
+nav .bg-light{
+    background-color: #c3bef0 !important;
+} 
+.nav-items{
+    list-style: none;
+    padding: 0 18px 0 0;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: "Montserrat-light";
+    color: rgba(255,255,255,.6) !important;
+    font-size: 1.3rem;
+}
+.nav-link:hover{
+color: white !important;
+}
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    color: white !important;
+}
+/* Title */
+#home{
+    background-color: #c3bef0;
+    padding: 2% 6% !important;
+}
+.title-image{
+    width: 97%;
+    height: 94.5%;
+}
+.title-content{
+    margin: 2% 0% 7%;
+}
+.big-heading{
+    color: #ffffff;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+  }
+/* features */
+#features{
+    padding: 10% 10%;
+}
+#features h4{
+    font-size: 1.2rem;
+}
+.features-para{
+    text-align: justify;
+}
+.features-box{
+    padding: 1% 3% !important;
+}
+.icon{
+    color: #abccfd;
+    margin: 5% 27%;
+    align-items: center;
+}
+.icon:hover{
+    color: #c3bef0;
+}
+/* About  */
+#about{
+    padding: 10% 15%;
+    background-color: #c3bef0;
+}
+#about h1{
+    text-align: center;
+    margin-bottom: 6%;
+    font-size: 3rem;
+    color: #ffffff;
+}
+/* Testimonials */
+#testimonials{
+    padding: 12% 5%;
+}
+#testimonial-carousel{
+    padding: 1% 12%;
+}
+.testimonial-image{
+    width: 12%;
+    padding: 0.2rem;
+    margin: 10px;
+}
+.testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.car-cont{
+    background-color: #c3bef0 !important;
+}
+/* Contact */
+#contact{
+    padding: 10% 15%;
+    background-color: #c3bef0;
+}
+#contact h1{
+    color: #ffffff;
+}
+.contact-img{
+    width: 90%;
+    margin: 15% 0%;
+}
+.form-group{
+    padding: 0% 15%;
+    background-color: #c3bef0;
+    border: none;
+}
+.form-group input,.form-group textarea,.form-group select{
+    background: none;
+    border: none;
+    border-radius: 0%;
+    outline: none;
+    border-bottom: 2px solid white;
+    font-family: 'Nunito', sans-serif;
+}
+.sub-btn {
+    margin: 0% 15% !important;
+}
+/* Plans */
+#plans{
+    padding: 10% 10%;
+    text-align: center;
+}
+#plans h1{
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+.card-header{
+    background-color: #007bff41 !important;
+}
+/* Footer */
+#footer{
+    text-align: center;
+    margin-bottom: 0%;
+    font-family: 'Nunito', sans-serif;
+}
+.social-icon{
+    margin: 0px 5px;
+}
+.social-icon:hover{
+    cursor: pointer;
+}
+.fb{
+    color: blue;
+}
+.twitter{
+    color: rgb(5, 226, 255);
+}
+.yt{
+    color: red;
+}
+.lin{
+    color: rgb(4, 101, 245);
+}
+.phone{
+    color: black;
+}
+.mail{
+    color: rgb(58, 165, 252);
+}
